@@ -7,14 +7,14 @@ export default function resume() {
     <Navbar color="black"/>
     <div style={{display: "flex", justifyContent: "center"}}>
     <div className={styles.aboutdiv} style={{display: "flex", flexDirection: "column"}}>
-    <div className={styles.projectstitle} style={{justifyContent: "start", marginTop: "40px"}}>
+    <div className={styles.projectstitle} style={{justifyContent: "start", marginTop: "25px"}}>
     Work Experience
     </div>
         <div className={styles.blockparagraph}>
-        Software/web development Intern - <a href="https://thinkanalytics.com/" target="_blank">ThinkAnalytics</a>
+        Software/web development Intern - <a href="https://thinkanalytics.com/" rel="noreferrer" target="_blank">ThinkAnalytics</a>
         </div>
         <div className={styles.blockparagraph}>
-         Web development Intern - <a href="https://423creative.com/" target="_blank">423Creative</a>
+         Web development Intern - <a href="https://423creative.com/" rel="noreferrer" target="_blank">423Creative</a>
         </div>
         <div className={styles.projectstitle} style={{justifyContent: "start", marginTop: "40px"}}>
         Relevant Coursework

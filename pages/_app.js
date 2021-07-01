@@ -17,6 +17,20 @@ function App({ Component, pageProps, router}) {
     <Component {...pageProps} />
     </motion.div>
     </AnimateSharedLayout>
+    <style global jsx>{`
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      ::-webkit-scrollbar-button {
+        display: none;
+      }
+
+      body {
+        -ms-overflow-style:none;
+      }
+         `}
+    </style>
     </AnimatePresence>
   )
 }

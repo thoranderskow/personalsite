@@ -3,7 +3,10 @@ import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import { motion } from 'framer-motion';
 
-export default class extends React.Component {
+var git = "/github.png"
+var link = "/linkedin.png"
+
+export default class Navbar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,8 +29,8 @@ export default class extends React.Component {
               <Link href='./about'><a>About</a></Link>
               <Link href='./proj'><a>Projects</a></Link>
               <Link href='./resume'><a>Resume</a></Link>
-              <Link href='https://github.com/thoranderskow'><a target="_blank"><img src="/github.png"/></a></Link>
-              <Link href='https://www.linkedin.com/in/thorence-anderskow-60a560176/'><a target="_blank"><img src="/linkedin.png"/></a></Link>
+              <Link href='https://github.com/thoranderskow'><a rel="noreferrer" target="_blank"><div className="gitspan"/></a></Link>
+              <Link href='https://www.linkedin.com/in/thorence-anderskow-60a560176/'><a rel="noreferrer" target="_blank"><div className="linkspan"/></a></Link>
           </div>
       <style jsx>{`
         a {
@@ -39,9 +42,21 @@ export default class extends React.Component {
           color: #de9547;
 
         }
-        img {
+        .gitspan {
           height: 25px;
           width: 25px;
+          background-image: url(${git});
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+        }
+        .linkspan {
+          height: 25px;
+          width: 25px;
+          background-image: url(${link});
+          background-position: center center;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
         }
         `}
       </style>
