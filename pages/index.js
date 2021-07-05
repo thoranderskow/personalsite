@@ -6,7 +6,7 @@ import Navbar from './components/navbar.js'
 import { motion } from 'framer-motion';
 
 var imgs = ["/IMG_2348.JPG", "/IMG_4600.jpeg", "/IMG_8748.jpeg", "/IMG_8549.jpeg"]
-var locations = ["Glasgow, UK", "Malibu, US", "Colorado, US", "Seattle, US"]
+var locations = ["Glasgow, UK", "Malibu, US", "Breckenridge, US", "Seattle, US"]
 var counter = 0
 
 class Landing extends React.Component {
