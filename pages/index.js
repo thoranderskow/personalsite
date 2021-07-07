@@ -5,8 +5,8 @@ import React, { Component } from 'react'
 import Navbar from './components/navbar.js'
 import { motion } from 'framer-motion';
 
-var imgs = ["/IMG_2348.JPG", "/IMG_4600.jpeg", "/IMG_8748.jpeg", "/IMG_8549.jpeg"]
-var locations = ["Glasgow, UK", "Malibu, US", "Breckenridge, US", "Seattle, US"]
+var imgs = ["/IMG_2348.JPG", "/IMG_4600.jpeg", "/IMG_8748.jpeg", "/IMG_8549.jpeg", "Zuma2.jpeg"]
+var locations = ["Glasgow, UK", "Malibu, US", "Breckenridge, US", "Seattle, US", "Malibu, US"]
 var counter = 0
 
 class Landing extends React.Component {
@@ -40,7 +40,7 @@ class Landing extends React.Component {
       <div>
       <Navbar color="white" outline="true"/>
       <div className={styles.location}>
-      <div style={{width: "120px"}}>
+      <div style={{width: "160px"}}>
       {this.state.location}
       </div>
       <button className={styles.btn} onClick={changeBackground}/>
