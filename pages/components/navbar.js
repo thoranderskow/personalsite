@@ -30,7 +30,7 @@ export default class Navbar extends React.Component {
               <Link href='./proj'><a>Projects</a></Link>
               <Link href='./resume'><a>Resume</a></Link>
               <Link href='https://github.com/thoranderskow'><a rel="noreferrer" target="_blank"><div className="gitspan"/></a></Link>
-              <Link href='https://www.linkedin.com/in/thorence-anderskow-60a560176/'><a rel="noreferrer" target="_blank"><div className="linkspan"/></a></Link>
+              <Link href='https://www.linkedin.com/in/thor-anderskow-60a560176/'><a rel="noreferrer" target="_blank"><div className="linkspan"/></a></Link>
           </div>
       <style jsx>{`
         a {
